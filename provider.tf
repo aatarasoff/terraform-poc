@@ -1,3 +1,5 @@
+variable "do_token" {}
+
 provider "digitalocean" {
-  token = "${do_token}"
+  token = "${var.do_token}"
 }
